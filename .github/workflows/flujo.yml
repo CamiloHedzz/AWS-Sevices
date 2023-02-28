@@ -52,6 +52,6 @@ jobs:
             
       - name: crear bucket
         run: |
-          aws s3api create-bucket    --bucket bucketCamilo38293410001100    --region us-east-1
+          aws s3api create-bucket    --bucket bigDataEdge1000382934Ibañez    --region us-east-1
           aws s3api list-buckets
-          aws s3 cp funciones.py s3://bucketCamilo38293410001100
+          aws s3 cp funciones.py s3://bigDataEdge1000382934Ibañez
